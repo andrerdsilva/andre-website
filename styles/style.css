@@ -1,0 +1,75 @@
+/* Basic reset for margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  /* Limits the maximum width and centers the content */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: center; /* Centers the navigation links */
+  align-items: center;
+  padding-top: 20px; /* Keeps the top spacing */
+  padding-bottom: 10px; /* Reduces the bottom spacing to move the line UP */
+  border-bottom: 1px solid #ddd; /* Subtle line to separate menu from content */
+  margin-bottom: 30px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px; /* Spacing between links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+  color: #092269ff;
+}
+
+/* Quick styles to organize the rest of the existing content */
+img {
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
+h1,
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #777;
+}
